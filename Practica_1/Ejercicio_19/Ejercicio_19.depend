@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710330902 source:/home/alumnos/Escritorio/Ejercicio_19/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

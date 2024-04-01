@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1711539589 source:/home/alumnos/Escritorio/Ejercicio_5_Punteros/main.c
+	<stdio.h>
+	<stdlib.h>
+

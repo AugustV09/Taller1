@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711550251 source:/home/alumnos/Escritorio/proyecto_embedia_spectrogram-20230519T161222Z-001/Ejercicio_1_Adicional/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

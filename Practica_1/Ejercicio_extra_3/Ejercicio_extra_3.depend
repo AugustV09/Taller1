@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710507004 source:e:\facultad\practica_1\ejercicio_extra_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

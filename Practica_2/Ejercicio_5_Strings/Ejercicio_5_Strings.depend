@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711109689 source:/home/alumnos/Escritorio/Ejercicio_5_Strings/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
