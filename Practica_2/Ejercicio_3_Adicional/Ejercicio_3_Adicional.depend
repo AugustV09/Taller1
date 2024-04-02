@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1712089558 source:c:\facultad octavio\2024\taller1\practica_2\ejercicio_3_adicional\main.c
+	<stdio.h>
+	<stdlib.h>
+
