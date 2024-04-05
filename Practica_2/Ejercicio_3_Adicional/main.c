@@ -43,11 +43,11 @@ int main()
     return 0;
 }
 
-void upperStr (char *palabra){    //¿Debo pensar en los caracteres especiales?
+void upperStr (char *palabra){    //¿Debo pensar en los caracteres especiales? Hola
     int difer = 'b'- 'B';
 
     for (; *palabra; palabra++){
-        if ((*palabra)>='a')*palabra = *palabra - difer;
+        if ((*palabra)>='a' && (*palabra)<= 'z')*palabra = *palabra - difer;
     }
 }
 
@@ -75,4 +75,26 @@ void numToStr (int num,char *p){
 }
 
 void numToText (int num, char *p){
+
+    char * palabras[] = {"cero","uno", "dos", ""};
+    int a = num%10, b= (num/10)%10;
+
+    switch b{
+     case 0: switch{
+                case 0: *p = "cero";
+             }
+             break;
+    case 1: switch{
+
+            }
+            break;
+    case 2: break;
+    case 3: break;
+    case 4: break;
+    case 5: break;
+    case 6: break;
+    case 7: break;
+    case 8: break;
+    case 9: break;
+    }
 }
