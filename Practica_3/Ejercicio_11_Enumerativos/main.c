@@ -6,7 +6,7 @@ typedef enum {Bluetooth=128, Wifi=64, GPS=32, atos=16, Frontal=8, Trasera=4, Lin
 void activar (Estado *, Estado);
 void desactivar (Estado *, Estado);
 void invertir (Estado *, Estado);
-int detMod (Estado, Estado);
+char detMod (Estado, Estado);
 
 int main()
 {
@@ -31,7 +31,7 @@ void invertir(Estado *estado, Estado e){
     *estado ^= e;
 }
 
-int detMod (Estado estado, Estado e){
+char detMod (Estado estado, Estado e){
     estado &= e;
     return estado;
 }
