@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1713917774 source:c:\facultad octavio\2024\taller1\practica_3\ejercicio_16_integracion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
