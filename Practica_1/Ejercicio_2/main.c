@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(){
+    int vector[2] = {1,3,4,60,6};
     char c= 'a';
     int x= 64;
     printf("char c= %c\n", x);

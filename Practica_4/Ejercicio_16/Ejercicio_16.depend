@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715451544 source:c:\facultad octavio\2024\taller1\practica_4\ejercicio_16\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
