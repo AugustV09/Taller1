@@ -14,7 +14,7 @@ int main()
         while (i != fabs(num)+1){   //Es fabs() es para que funcione para numeros negativos
 
             //Si cont es divisible por CANT significa que no tengo mas espacio para incluir mas elementos en el ARRAY
-            if (cont % CANT == 0) divisores = (int *) realloc(divisores, (CANT+cont)*sizeof(int));
+            if ((cont % CANT) == 0) divisores = (int *) realloc(divisores, (CANT+cont)*sizeof(int));
             //(CANT+cont) representa que a la cantidad de elementos cont de mi ARRAY hay que agregarle CANT espacios más
 
             if (num % i == 0){

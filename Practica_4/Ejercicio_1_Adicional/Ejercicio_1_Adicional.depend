@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715779837 source:/home/alumnos/Taller1/Practica_4/Ejercicio_1_Adicional/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

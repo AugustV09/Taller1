@@ -34,7 +34,7 @@ void crearPiramide(int ***piramide, int n){
 
         }
 
-        if (j<(i+1))(*piramide)[i][j+1] = 1;    //Pongo un 1 en la ultima posicion de cada fila de la piramide
+        if (j<(i+1))(*piramide)[i][j] = 1;    //Pongo un 1 en la ultima posicion de cada fila de la piramide
     }
 }
 
@@ -44,11 +44,11 @@ void imprimirPiramide (int **piramide, int n){
         j=1;
         printf("%d)",i);
         for(k=i; k<n; k++ )printf("  ");    //Esto es para dejar los espacios y que se note la piramide
-        printf("%d  ",1);
+        printf("%5d",1);
         for (; j<i; j++){
-            printf("%d  ",piramide[i][j]);
+            printf("%5d ",piramide[i][j]);
         }
-        if (j<(i+1))printf("%d\n",1);
+        if (j<(i+1))printf("%5d\n",1);
         else printf("\n");
     }
 }
