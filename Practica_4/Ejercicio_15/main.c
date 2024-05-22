@@ -56,7 +56,7 @@ void imprimirPiramide (int **piramide, int n){
 void destruirPiramide (int ***piramide, int n){
     int i;
     for (i=0; i<n; i++){
-        free(*((*piramide)+i));
+        free(*((*piramide)+i)); //ES EQUIVALENTE A (*PIRAMIDE)[I]
     }
 
     free(*piramide);
