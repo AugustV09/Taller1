@@ -39,17 +39,19 @@ int main()
     fgets(columna, CANT, ar_read);
 
 
+    fscanf(ar_read,"%lf;", &valor_aux);
     while (!feof(ar_read)){
-        for(i=0; i<max_col && !feof(ar_read); i++){
+
+        for(i=0; i<max_col; i++){
+            valores[0][i]+=valor_aux;
+            if (valor_aux<valores[1][i]) valores[1][i]=valor_aux;
+            if (valor_aux>valores[2][i]) valores[2][i]=valor_aux;
             fscanf(ar_read,"%lf;", &valor_aux);
-            if (!feof(ar_read)){
-                valores[0][i]+=valor_aux;
-                if (valor_aux<valores[1][i]) valores[1][i]=valor_aux;
-                if (valor_aux>valores[2][i]) valores[2][i]=valor_aux;
-            }
         }
+
         cantFilas++;
-        if (!feof(ar_read)) fgets(columna, CANT, ar_read);
+        fgets(columna, CANT, ar_read);
+        fscanf(ar_read,"%lf;", &valor_aux);
     }
 
 
