@@ -58,6 +58,9 @@ int main()
 
     int cant = fread(linea,sizeof(char),300,archivo_read);
     while (cant){
+        /*Se recomienda leer asi con los archivos binarios porque, a diferencia de los demas, el fread no tiene que hacer una lectura más sobre el EOF
+        para que FEOF() establezca que hay que cortar con el respectivo while. Eso hace que el patron que usamos con fgets(), por ejemplo, no funciona
+        si usamos fread().*/
         fwrite(linea,sizeof(char),cant,arc3);
         cant=fread(linea,sizeof(char),300,archivo_read);
     }
