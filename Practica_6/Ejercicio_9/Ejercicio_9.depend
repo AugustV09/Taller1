@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1717590975 source:/home/alumnos/Taller1/Practica_6/Ejercicio_9/main.c
+	<stdio.h>
+	<stdlib.h>
+	"imath.h"
+
+1717591299 /home/alumnos/Taller1/Practica_6/Ejercicio_9/imath.h
+
