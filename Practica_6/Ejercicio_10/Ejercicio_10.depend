@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1717760346 source:/home/alumnos/Taller1/Practica_6/Ejercicio_10/implemetacionFuncionesStack.c
+	<stdio.h>
+	<stdlib.h>
+	"istack.h"
+
+1717761598 source:/home/alumnos/Taller1/Practica_6/Ejercicio_10/main.c
+	<stdio.h>
+	<stdlib.h>
+	"istack.h"
+	"istack2.h"
+
+1717760497 /home/alumnos/Taller1/Practica_6/Ejercicio_10/istack.h
+
+1717761326 source:/home/alumnos/Taller1/Practica_6/Ejercicio_10/Istack2.c
+	<stdio.h>
+	<stdlib.h>
+	"istack2.h"
+
+1717761644 /home/alumnos/Taller1/Practica_6/Ejercicio_10/istack2.h
+
